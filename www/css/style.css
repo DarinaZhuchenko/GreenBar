@@ -1,0 +1,219 @@
+body {background-color: white;}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Pribambas; 
+    src: url(fonts/Pribambas.ttf);
+}
+@font-face {
+    font-family: segoeui; 
+    src: url(fonts/segoeui.ttf);
+}
+@font-face {
+    font-family: PF Din Text Pro; 
+    src: url(fonts/PFDinTextPro.ttf);
+}
+.grid {
+    margin: 0 auto;
+    max-width: 1260px;
+    width: 100%;
+}
+.row {
+    width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%
+}
+img {
+    display: table-cell;
+    max-width: 100%;
+    height: auto;  
+}
+a {
+    text-decoration: none;
+    color: #222222; 
+}
+a :hover {
+    text-decoration: none;
+    color: #4b7c00; 
+}
+#link { /* ссылки в тексте*/
+    text-decoration: underline;
+    color: #4b7c00;
+}
+#red-line { /* отступ первой строки */
+    text-indent: 2em;
+}
+#logo {
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.menu-style { /* навигация */
+    text-align: center;
+    font-family: Pribambas; 
+    font-size: 2vw;
+}
+.menu-style a {
+    color: #222222; 
+}
+.menu-style a :hover {
+    color: #4b7c00; 
+}
+h1 { /* большой заголовок */
+    text-align: center;       
+    font-family: PF Din Text Pro; 
+    font-size: 3vw;
+    color: #222222;   
+}
+h2 { /* средний заголовок (бывший н4) */
+    font-family: PF Din Text Pro;
+    font-size: 2vw;
+    color: #222222;
+}
+h3 { /*маленький текст (уточнения)*/
+    font-family: segoeui; 
+    font-size: 1vw;
+    color: grey;
+}
+p { /* основной текст(бывший н2) */
+    text-align: justify;
+    font-family: segoeui; 
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: #222222;
+}
+#left {
+    text-align: left;
+}
+#right {
+    text-align: right;
+}
+#center {
+    text-align: center;
+}
+#justify {
+    text-align: justify;
+}
+a.button { /*кнопки*/
+    float: left;
+    font-family: PF Din Text Pro; 
+    font-size: 2vw; 
+    color: black;
+    background-color: #4b7c00;
+    border-radius: 10px;
+}
+a.button:hover { /*кнопки*/
+    color: black;
+    background-color: #3b6200;
+}
+
+/*---------- index.php ----------*/
+.index-table {
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.index-table td {
+    width: 33%;
+}
+#two-row-table-1 { /* отступы от таблицы в 2 ряда */
+    padding-left: 2%;
+    padding-right: 1%;
+}
+#two-row-table-2 { /* отступы от таблицы в 2 ряда */
+    padding-left: 1%;
+    padding-right: 2%;
+}
+
+/* регистрация/авторизация */
+label { /* стиль меток для форм */
+    margin-top:0px; 
+    margin-bottom:0px;
+    font-family: PF Din Text Pro;
+    font-style:normal; 
+    font-size:1.8vw;
+    color: #222222;
+}
+.form_input { /* размер полей формы */
+ /*   height: 30px;
+    width: 180px;*/
+    height: 4vh;
+    width: 13vw;
+}
+.button_form { /* кнопки для форм */
+    float: left;
+    font-family: PF Din Text Pro; 
+    font-size: 2vw; 
+    border-radius: 10px;
+    color: black;
+
+}
+.button_form hover {
+    color: red;
+}
+
+.window { 
+    width: 400px; 
+    height: 200px; 
+    background: #fff; 
+    border-radius: 10px; 
+    position: relative; 
+    padding: 10px; 
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    text-align: center; 
+    margin: 15% auto; 
+}  
+
+#popup { 
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    background: rgba(0,0,0,.7); 
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+    visibility: visible; 
+}  
+
+.account {
+    background : url(images/green_bg.png);
+}

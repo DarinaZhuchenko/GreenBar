@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="не_курить" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="100px" height="86px" viewBox="0 0 100 86" enable-background="new 0 0 100 86" xml:space="preserve">
+<ellipse id="круг" fill="none" stroke="#000000" stroke-width="8" stroke-miterlimit="10" cx="50" cy="42.509" rx="35.125" ry="31.492"/>
+<rect id="контур" x="17.747" y="38.511" transform="matrix(-0.8262 -0.5634 0.5634 -0.8262 67.3551 105.8011)" width="64.502" height="8"/>
+<rect id="сигарета" x="23.708" y="40.584" width="46.833" height="10.166"/>
+<rect id="пепел_1" x="72.375" y="40.584" width="1.5" height="10.166"/>
+<rect id="пепел_2" x="74.791" y="40.584" width="1.5" height="10.166"/>
+<path id="дым_1" fill="none" stroke="#000000" stroke-miterlimit="10" d="M72.125,37.777c0,0-4.166-9.167-11.166-8.667
+	c0,0-13.334-2.167-13.834-15.167"/>
+<path id="дым_2" fill="none" stroke="#000000" stroke-miterlimit="10" d="M73.125,35.827c0,0-4-11.5-12.334-10.667
+	c0,0-10.5,1-13.666-15"/>
+</svg>

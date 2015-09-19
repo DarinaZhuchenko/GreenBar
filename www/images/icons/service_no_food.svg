@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="без_еды" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="100px" height="86px" viewBox="0 0 100 86" enable-background="new 0 0 100 86" xml:space="preserve">
+<ellipse id="круг" fill="none" stroke="#000000" stroke-width="8" stroke-miterlimit="10" cx="50" cy="42.509" rx="35.125" ry="31.492"/>
+<rect id="контур" x="17.747" y="38.511" transform="matrix(-0.8262 -0.5634 0.5634 -0.8262 67.3551 105.8011)" width="64.502" height="8"/>
+<path id="бургер_1" d="M27,49.961c0,0,10-9.375,20.625,0H27z"/>
+<path id="бургер_2" d="M47.625,55.086c0,0-10,9.375-20.625,0H47.625z"/>
+<line id="бургер_3" fill="none" stroke="#000000" stroke-width="3.5" stroke-miterlimit="10" x1="47.625" y1="52.502" x2="27" y2="52.502"/>
+<circle id="круг_1" cx="27" cy="52.502" r="1.745"/>
+<circle id="круг_2" cx="47.255" cy="52.502" r="1.745"/>
+<polygon id="стакан" points="52.833,59.253 66.5,59.253 70,29.419 49.5,29.419 "/>
+<path id="трубочка" fill="none" stroke="#000000" stroke-miterlimit="10" d="M54.5,29.419l-1.861-8.167
+	c0,0-0.619-3-2.273-1.333c-1.655,1.667-4.854,4.499-4.854,4.499"/>
+</svg>

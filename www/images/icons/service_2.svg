@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="услуги" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="100px" height="86px" viewBox="0 0 100 86" enable-background="new 0 0 100 86" xml:space="preserve">
+<path id="контур_1" fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M29.869,77.716l40.922,0.224
+	c0,0,4.875-0.088,4.875-5.274s0-58.02,0-58.02s0.591-6.334-6.277-6.267c-6.869,0.067-28.735,0-28.735,0s-2.042,1.277-4.13,2.988
+	c-2.086,1.712-12.481,10.126-11.826,12.04l-0.029,4.929v39.763v4.178C24.669,72.27,24.034,78.518,29.869,77.716z"/>
+<g id="текст_1">
+	<line fill="#7A7A7A" stroke="#7A7A7A" stroke-miterlimit="10" x1="64.613" y1="36.066" x2="49.469" y2="36.066"/>
+	<g>
+		<path fill="#7A7A7A" stroke="#7A7A7A" stroke-miterlimit="10" d="M64.613,34.566c-5.047,0-10.096,0-15.146,0c-1.935,0-1.935,3,0,3
+			c5.05,0,10.099,0,15.146,0C66.549,37.566,66.549,34.566,64.613,34.566L64.613,34.566z"/>
+	</g>
+</g>
+<g id="текст_2">
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="64.477" y1="49.273" x2="49.333" y2="49.273"/>
+	<g>
+		<path fill="#7A7A7A" stroke="#7A7A7A" stroke-miterlimit="10" d="M64.477,47.773c-5.047,0-10.096,0-15.144,0c-1.935,0-1.935,3,0,3
+			c5.048,0,10.097,0,15.144,0C66.411,50.773,66.411,47.773,64.477,47.773L64.477,47.773z"/>
+	</g>
+</g>
+<g id="текст_3">
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="64.477" y1="62.752" x2="49.333" y2="62.752"/>
+	<g>
+		<path fill="#7A7A7A" stroke="#7A7A7A" stroke-miterlimit="10" d="M64.477,61.252c-5.047,0-10.096,0-15.144,0c-1.935,0-1.935,3,0,3
+			c5.048,0,10.097,0,15.144,0C66.411,64.252,66.411,61.252,64.477,61.252L64.477,61.252z"/>
+	</g>
+</g>
+<path id="загиб" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M27.87,22.847l13.207-12.298v8.659
+	c0,2.089-0.825,2.999-1.65,3.387c-0.825,0.387-1.651,0.252-1.651,0.252H27.87l1.453-1.808l2.51-2.639l4.622-5.245l3.83-2.977"/>
+<path id="галочка_1" fill="none" stroke="#4B7C00" stroke-width="3" stroke-miterlimit="10" d="M34.698,33.664l3.038,3.773
+	c0,0,0.66,1.887,1.717,0c1.057-1.887,4.358-6.469,4.358-6.469"/>
+<path id="галочка_2" fill="none" stroke="#4B7C00" stroke-width="3" stroke-miterlimit="10" d="M34.562,48.348l3.037,3.773
+	c0,0,0.661,1.888,1.717,0c1.056-1.887,4.358-6.469,4.358-6.469"/>
+<path id="галочка_3" fill="none" stroke="#4B7C00" stroke-width="3" stroke-miterlimit="10" d="M34.473,61.825L37.51,65.6
+	c0,0,0.661,1.887,1.717,0c1.057-1.888,4.358-6.47,4.358-6.47"/>
+</svg>

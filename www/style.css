@@ -1,0 +1,291 @@
+body {
+    background-color: white;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Pribambas; 
+    src: url(fonts/Pribambas.ttf);
+}
+@font-face {
+    font-family: segoeui; 
+    src: url(fonts/segoeui.ttf);
+}
+@font-face {
+    font-family: PF Din Text Pro; 
+    src: url(fonts/PFDinTextPro.ttf);
+}
+.grid {
+    margin: 0 auto;
+    max-width: 1260px;
+    width: 100%;
+}
+.row {
+    width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%
+}
+img {
+    display: table-cell;
+    max-width: 100%;
+    height: auto;  
+}
+#logo {
+    padding: 8% 0;
+}
+.menu-style { /* навигация */
+    text-align: center;
+    font-family: Pribambas; 
+    font-size: 2vw;
+}
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
+.menu-style #hover-link  {
+    text-decoration: none;
+    color: black; 
+}
+.menu-style #hover-link:hover {
+    text-decoration: none;
+    color: #4b7c00;
+}
+#link { /* ссылки в тексте */
+    text-decoration: underline;
+    color: #4b7c00;
+}
+#red-line { /* отступ первой строки */
+    text-indent: 2em;
+}
+h1 { /* большой заголовок */
+    text-align: center;       
+    font-family: PF Din Text Pro; 
+    font-size: 3vw;
+    color: #222222;   
+}
+h2 { /* средний заголовок (бывший н4) */
+    font-family: PF Din Text Pro;
+    font-size: 2vw;
+    color: #222222;
+}
+p, span { /* основной текст(бывший н2) */
+    text-align: justify;
+    font-family: segoeui; 
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #222222;
+}
+#small-text, footer p { /*маленький текст (уточнения)*/
+    font-family: segoeui; 
+    font-size: 1vw;
+    color: grey;
+}
+#left {
+    text-align: left;
+}
+#right {
+    text-align: right;
+}
+#center {
+    text-align: center;
+}
+#justify {
+    text-align: justify;
+}
+a.button { /* кнопки */
+    float: left;
+    font-family: PF Din Text Pro; 
+    font-size: 2vw; 
+    color: black;
+    background-color: #4b7c00;
+    border-radius: 10px;
+}
+a.button :hover { /* кнопки */
+    color: black;
+    background-color: #3b6200;
+}
+table {
+    width: 100%;
+}
+#green {
+    color: #4b7c00;
+}
+
+/*---------- index.php ----------*/
+.index-table td {
+    width: 33%;
+}
+#two-row-table-1 { /* отступы от таблицы в 2 ряда */
+    padding: 0 2%;
+}
+#two-row-table-2 { /* отступы от таблицы в 2 ряда */
+    padding: 0 2%;
+}
+
+/*---------- about.php ----------*/
+#gallery {
+    padding: 1% 1% 0;
+}
+
+/*---------- menu.php ----------*/
+.menu-table td {
+    padding-bottom: 2%;
+}
+
+/*---------- service.php ----------*/
+.service-table tr td:first-child {
+    width: 20%;
+}
+
+/*---------- contacts.php ----------*/
+.responsive { 
+    height: 0; 
+    position: relative; 
+    overflow: hidden; 
+    padding-bottom: 56.25%; 
+} 
+.responsive iframe {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%; 
+    padding: 10px;
+}
+
+/* ---------- signup.php/signin.php ---------- */
+.signin {
+    background-color: #CCFE80; 
+    border-radius: 10px;
+}
+.signin p {
+    padding: 0 5%;
+}
+.signup {
+    background-color: #E6FEBF;
+    border-radius: 10px;
+}
+.signup span {
+    padding-left: 10%;
+}
+label { /* стиль меток для форм */
+    padding-left: 10%;
+    font-family: PF Din Text Pro;
+    font-style: normal; 
+    font-size: 1.8vw;
+    color: #222222;
+}
+.account label {
+    color: #ab0d20;;
+}
+.input { /* размер полей формы */
+    margin: 5% 0 5% 10%;
+    width: 12vw;
+    height: 2vw;
+}
+input::-webkit-input-placeholder {
+    font-size: 1vw;
+}
+input:-moz-placeholder {
+    font-size: 1vw; 
+}
+.signin-form-button, .signup-form-button, .account-reserve-button, .account-exit-button, .reserve-button-form { /* кнопки для форм */
+    font-family: PF Din Text Pro; 
+    font-size: 2vw; 
+    border-radius: 10px;
+    color: black;
+}
+.signin-form-button {
+    padding: 0 40%;
+    background-color: #6BB200;
+}
+.signup-form-button {
+    padding: 0 19%;
+    background-color:#CCFE80;
+}
+.account-reserve-button {
+    padding-left: 7%;
+    padding-right: 6%;
+    background-color:#6BB200;
+}
+.account-exit-button {
+    background-color:#CCFE80;
+    padding: 0 35%;
+}
+.reserve-button-form {
+    padding: 0 24%;
+    color:#ab0d20;
+    background-color: #222222;
+}
+.window { 
+    width: 30vw;
+    height: 15vw;
+    background: #fff; 
+    border-radius: 10px; 
+    position: relative; 
+    padding: 10px; 
+    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    text-align: center; 
+    margin: 15% auto; 
+}  
+#popup { 
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    background: rgba(0,0,0,.7); 
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+    visibility: visible; 
+}  
+.account {
+    background : url(images/food_bg.png);
+    border-radius: 10px;
+}
+footer {
+    background-color: #df8;
+}
+footer p {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

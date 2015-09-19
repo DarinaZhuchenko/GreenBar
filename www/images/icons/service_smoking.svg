@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="курение" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="100px" height="86px" viewBox="0 0 100 86" enable-background="new 0 0 100 86" xml:space="preserve">
+<rect id="ладонь_2" x="36.658" y="46.288" width="32.339" height="17.414"/>
+<path id="ладонь" d="M73.246,53.988c0,0,2.124,15.109-5.9,24.916H39.492L30.64,61.251L73.246,53.988z"/>
+<line id="палец_1" fill="none" stroke="#000000" stroke-width="8" stroke-miterlimit="10" x1="25.495" y1="46.053" x2="35.784" y2="61.923"/>
+<line id="палец_2" fill="none" stroke="#000000" stroke-width="8" stroke-miterlimit="10" x1="38.547" y1="17.12" x2="38.547" y2="59.044"/>
+<line id="палец_3" fill="none" stroke="#000000" stroke-width="8" stroke-miterlimit="10" x1="49.547" y1="11.971" x2="49.547" y2="53.161"/>
+<line id="палец_4" fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" x1="61.207" y1="36.703" x2="61.207" y2="53.988"/>
+<line id="палец_5" fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" x1="70.943" y1="43.868" x2="69.764" y2="59.313"/>
+<path id="палец_1.1" d="M29.393,45.695c0,2.086-1.851,3.772-4.135,3.772c-2.281,0-4.132-1.688-4.132-3.772
+	c0-2.086,1.851-3.773,4.132-3.773C27.542,41.922,29.393,43.609,29.393,45.695z"/>
+<ellipse id="палец_2.1" cx="38.548" cy="17.12" rx="3.957" ry="4.492"/>
+<ellipse id="палец_3.1" cx="49.547" cy="11.971" rx="4.004" ry="4.492"/>
+<ellipse id="палец_4.1" cx="61.18" cy="37.264" rx="3.523" ry="3.931"/>
+<ellipse id="палец_5.1" cx="71.415" cy="43.427" rx="3.163" ry="4.006"/>
+<polygon id="сигарета" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" points="72.257,25.697 26.438,35.274 
+	24.899,27.33 70.716,17.75 "/>
+<polygon id="пепел" points="75.309,23.344 72.4,23.904 71.539,19.067 74.445,18.507 "/>
+<path id="круг_1" fill="#FFFFFF" d="M34.511,52.441c0,0.932-0.681,1.682-1.525,1.682c-0.844,0-1.527-0.75-1.527-1.682
+	c0-0.933,0.683-1.684,1.527-1.684C33.83,50.759,34.511,51.51,34.511,52.441z"/>
+<ellipse id="круг_2" fill="#FFFFFF" cx="44.021" cy="46.288" rx="1.552" ry="1.371"/>
+<ellipse id="круг_3" fill="#FFFFFF" cx="55.633" cy="46.288" rx="2.086" ry="1.86"/>
+<path id="круг_4" fill="#FFFFFF" d="M68.252,46.288c0,0.958-0.791,1.728-1.775,1.728c-0.979,0-1.772-0.77-1.772-1.728
+	c0-0.95,0.795-1.724,1.772-1.724C67.461,44.564,68.252,45.338,68.252,46.288z"/>
+<line id="линия_1" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="43.976" y1="2.249" x2="43.976" y2="46.288"/>
+<rect id="линия_2" x="31.458" y="47.659" fill="#FFFFFF" width="2.543" height="5.133"/>
+<line id="линия_3" fill="none" stroke="#FFFFFF" stroke-width="3.3" stroke-miterlimit="10" x1="66.625" y1="46.625" x2="66.625" y2="34.983"/>
+</svg>

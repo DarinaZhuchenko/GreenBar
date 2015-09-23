@@ -21,8 +21,7 @@ else{}
 <!-- навигация -->
   <div class="row">
     <div class="col-1"></div>
-    <div class="col-3"><a href="index.php"><img src="images/logo.png" style="padding-top: 8%"></a></div>
-    <div class="col-1"></div>
+    <div class="col-3"><a href="index.php"><img id="logo" src="images/logo.png"></a></div>
     <div class="col-6">
       <table class="menu-style"> 
         <tr>
@@ -46,25 +45,26 @@ else{}
           {
               echo
               ("<html>
-                  <a href='signup.php'>Регистрация</a><br><a href='signin.php'>Авторизация</a></div>
+                  <a id='hover-link' href='signup.php'>Регистрация</a><br><a id='hover-link' href='signin.php'>Авторизация</a></div>
               </html>");
           }
               else
           {
              echo
               ("<html>
-                  <a href='myaccount.php'>Моя страница</a></div>
+                  <a id='hover-link' href='myaccount.php'>Моя страница</a></div>
               </html>");  
           }
       ?>
     </div> 
+    <div class="col-1"></div>
   </div> <!-- row -->
 <!-- изображение -->
   <div class="row">
     <div class="col-1"></div>
       <div class="col-6"><img src="images/map.png"></div>
       <div class="col-4">
-      <form class="account" method='post' action='sendmail.php'>
+      <form class="account" method='post' action='php/send_mail.php'>
       <table>
          <caption><h1>Резерв стола</h1><br></caption>
         <tr>
@@ -188,8 +188,8 @@ else{}
        </div> <!-- end col-5 -->
     </div> <!-- end row -->
   </div> <!-- grid -->
-<footer>
+<div class="footer">
   <p id="center">Идея и разработка: <a id="link" href="mailto:darinazhuchenko@gmail.com">Жученко Дарина</a></p>  
-</footer>
+</div>
 </body>
 </html>

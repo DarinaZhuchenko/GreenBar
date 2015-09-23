@@ -19,8 +19,7 @@ else{}
 <div class="grid">
   <div class="row">
     <div class="col-1"></div>
-    <div class="col-3"><a href="index.php"><img src="images/logo.png" style="padding-top: 8%"></a></div>
-    <div class="col-1"></div>
+    <div class="col-3"><a href="index.php"><img id="logo" src="images/logo.png"></a></div>
     <div class="col-6">   
       <table class="menu-style"> 
         <tr>
@@ -36,10 +35,11 @@ else{}
           ">Новости</a></td>
           <td><a href="contacts.php"><img src="images/icons/contacts.svg" onmouseover="this.src='images/icons/contacts_2.svg'" onmouseout="this.src='images/icons/contacts.svg'
           ">Контакты</a></td>
-          </tr>
-        </table>   
-      </div>
-      <div class="col-1 menu-style" ><a id="link" style="color:  #4b7c00;" href="myaccount.php">Моя страница</a></div> 
+        </tr>
+      </table>   
+    </div>
+    <div class="col-1 menu-style" ><a id="link" style="color: #4b7c00;" href="myaccount.php">Моя страница</a></div> 
+    <div class="col-1"></div>
   </div> 
 
 <?php
@@ -74,8 +74,8 @@ if (isset($_POST['exit']))
 }
 ?>
 </div>
-<footer>
+<div class="footer">
   <p id="center">Идея и разработка: <a id="link" href="mailto:darinazhuchenko@gmail.com">Жученко Дарина</a></p>  
-</footer>
+</div>
 </body>
 </html> 

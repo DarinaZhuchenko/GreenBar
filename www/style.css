@@ -27,7 +27,11 @@ body {
 .row {
     width: 100%;
     margin-bottom: 0px;
-    display: flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex; 
 }
 .col-1 {
     width: 8.33%;
@@ -67,11 +71,11 @@ body {
 }
 img {
     display: table-cell;
-    max-width: 100%;
+    width: 100%;
     height: auto;  
 }
 #logo {
-    padding: 8% 0;
+    padding: 8%;
 }
 .menu-style { /* навигация */
     text-align: center;
@@ -90,6 +94,12 @@ a, a:hover {
     text-decoration: none;
     color: #4b7c00;
 }
+.menu-style table {
+    table-layout: fixed; /* свойство для Firefox, чтоб изображения меню были одного размера */
+}
+.menu-style td {
+    width: 16.66%;
+}
 #link { /* ссылки в тексте */
     text-decoration: underline;
     color: #4b7c00;
@@ -99,12 +109,12 @@ a, a:hover {
 }
 h1 { /* большой заголовок */
     text-align: center;       
-    font-family: PF Din Text Pro; 
+    font-family: "PF Din Text Pro"; 
     font-size: 3vw;
     color: #222222;   
 }
 h2 { /* средний заголовок (бывший н4) */
-    font-family: PF Din Text Pro;
+    font-family: "PF Din Text Pro";
     font-size: 2vw;
     color: #222222;
 }
@@ -134,13 +144,17 @@ p, span { /* основной текст(бывший н2) */
 }
 a.button { /* кнопки */
     float: left;
-    font-family: PF Din Text Pro; 
+    margin-right: 2%;
+    font-family: "PF Din Text Pro"; 
     font-size: 2vw; 
     color: black;
     background-color: #4b7c00;
+    behavior: url(border-radius.htc);
     border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
 }
-a.button :hover { /* кнопки */
+a.button:hover { /* кнопки */
     color: black;
     background-color: #3b6200;
 }
@@ -150,16 +164,26 @@ table {
 #green {
     color: #4b7c00;
 }
+#content-padding { /* отступы от таблицы в 1 ряд */
+    padding: 0 2%;
+}
+.footer {
+    background-color: #df8;
+}
+.footer p {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: segoeui; 
+    font-size: 1vw;
+    color: grey;
+}
 
 /*---------- index.php ----------*/
 .index-table td {
     width: 33%;
 }
-#two-row-table-1 { /* отступы от таблицы в 2 ряда */
-    padding: 0 2%;
-}
-#two-row-table-2 { /* отступы от таблицы в 2 ряда */
-    padding: 0 2%;
+.index-table td img {
+    padding: 0 25%;
 }
 
 /*---------- about.php ----------*/
@@ -195,22 +219,28 @@ table {
 
 /* ---------- signup.php/signin.php ---------- */
 .signin {
-    background-color: #CCFE80; 
+    background-color: #CCFE80;
+    behavior: url(border-radius.htc); 
     border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
 }
 .signin p {
     padding: 0 5%;
 }
 .signup {
     background-color: #E6FEBF;
+    behavior: url(border-radius.htc);
     border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
 }
 .signup span {
     padding-left: 10%;
 }
 label { /* стиль меток для форм */
     padding-left: 10%;
-    font-family: PF Din Text Pro;
+    font-family: "PF Din Text Pro";
     font-style: normal; 
     font-size: 1.8vw;
     color: #222222;
@@ -232,7 +262,10 @@ input:-moz-placeholder {
 .signin-form-button, .signup-form-button, .account-reserve-button, .account-exit-button, .reserve-button-form { /* кнопки для форм */
     font-family: PF Din Text Pro; 
     font-size: 2vw; 
+    behavior: url(border-radius.htc);
     border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
     color: black;
 }
 .signin-form-button {
@@ -261,10 +294,15 @@ input:-moz-placeholder {
     width: 30vw;
     height: 15vw;
     background: #fff; 
+    behavior: url(border-radius.htc);
     border-radius: 10px; 
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
     position: relative; 
     padding: 10px; 
-    box-shadow: 0 0 5px rgba(0,0,0,.4); 
+    box-shadow: 0 0 5px rgba(0,0,0,.4);
+        -webkit-box-shadow: 0 0 5px rgba(0,0,0,.4);
+        -moz-box-shadow: 0 0 5px rgba(0,0,0,.4); 
     text-align: center; 
     margin: 15% auto; 
 }  
@@ -280,12 +318,8 @@ input:-moz-placeholder {
 }  
 .account {
     background : url(images/food_bg.png);
+    behavior: url(border-radius.htc);
     border-radius: 10px;
-}
-footer {
-    background-color: #df8;
-}
-footer p {
-    padding-top: 1%;
-    padding-bottom: 1%;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
 }

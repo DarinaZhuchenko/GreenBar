@@ -29,7 +29,6 @@ session_start();
   <div class="row">
     <div class="col-1"></div>
     <div class="col-3"><a href="index.php"><img id="logo" src="images/logo.png" style="padding-top: 8%"></a></div>
-    <div class="col-1"></div>
     <div class="col-6">
       <table class="menu-style"> 
         <tr>
@@ -53,17 +52,18 @@ session_start();
           if (empty($_SESSION['login']) or empty($_SESSION['id']))
           { echo
               ("<html>
-                  <a href='signup.php'>Регистрация</a><br><a href='signin.php'>Авторизация</a></div>
+                  <a id='hover-link' href='signup.php'>Регистрация</a><br><a id='hover-link' href='signin.php'>Авторизация</a></div>
               </html>");
           }
               else
           { echo
               ("<html>
-                  <a href='myaccount.php'>Моя страница</a></div>
+                  <a id='hover-link' href='myaccount.php'>Моя страница</a></div>
               </html>");  
           }
         ?>
     </div> 
+    <div class="col-1"></div>
   </div> <!-- end row -->
 <!-- Flexslider -->
   <div class="row">
@@ -85,7 +85,7 @@ session_start();
 <!-- архив -->
   <div class="row">
     <div class="col-1"></div>
-    <div class="col-10">
+    <div id="content-padding" class="col-10">
       <p><a href="index.php">Главная</a>/<a href="news.php">Новости/</a><a id="link" href="news_archive.php">Архив новостей</a></p>  
         <h1 id="archive">Архив событийя</h1>
           <h2>31 декабря. Новогодняя вечеринка</h2>       
@@ -94,7 +94,7 @@ session_start();
     <div class="col-1"></div>
   </div> <!-- end row -->
 </div> <!-- end grid -->
-<footer>
+<div class="footer">
   <p id="center">Идея и разработка: <a id="link" href="mailto:darinazhuchenko@gmail.com">Жученко Дарина</a></p>  
-</footer>
+</div>
 </body>

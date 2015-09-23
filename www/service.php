@@ -22,7 +22,6 @@ else{}
   <div class="row">
     <div class="col-1"></div>
     <div class="col-3"><a href="index.php"><img id="logo" src="images/logo.png"></a></div>
-    <div class="col-1"></div>
     <div class="col-6">
       <table class="menu-style"> 
         <tr>
@@ -45,17 +44,18 @@ else{}
           if (empty($_SESSION['login']) or empty($_SESSION['id']))
           { echo
               ("<html>
-                  <a href='signup.php'>Регистрация</a><br><a href='signin.php'>Авторизация</a></div>
+                  <a id='hover-link' href='signup.php'>Регистрация</a><br><a id='hover-link' href='signin.php'>Авторизация</a></div>
               </html>");
           }
               else
           { echo
               ("<html>
-                  <a href='myaccount.php'>Моя страница</a></div>
+                  <a id='hover-link' href='myaccount.php'>Моя страница</a></div>
               </html>");  
           }
       ?> <!-- end col-1 -->
     </div> 
+    <div class="col-1"></div>
   </div> <!-- end row -->
 <!-- изображение -->
   <div class="row">
@@ -127,8 +127,8 @@ else{}
        </div> <!-- end col-5 -->
     </div> <!-- end row -->
   </div> <!-- grid -->
-<footer>
+<div class="footer">
   <p id="center">Идея и разработка: <a id="link" href="mailto:darinazhuchenko@gmail.com">Жученко Дарина</a></p>  
-</footer>
+</div>
 </body>
 </html>

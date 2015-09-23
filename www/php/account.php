@@ -13,7 +13,7 @@ session_start();
     $login = trim($login);
     $password = trim($password);
 
-    include ("db.php");
+    include ("php/db.php");
 
 $result = mysql_query("SELECT * FROM users_2 WHERE login='$login'",$db); 
 $myrow = mysql_fetch_array($result);

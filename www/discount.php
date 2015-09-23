@@ -29,7 +29,6 @@ session_start();
   <div class="row">
     <div class="col-1"></div>
     <div class="col-3"><a href="index.php"><img id="logo" src="images/logo.png"></a></div>
-    <div class="col-1"></div>
     <div class="col-6">
       <table class="menu-style"> 
         <tr>
@@ -52,17 +51,18 @@ session_start();
           if (empty($_SESSION['login']) or empty($_SESSION['id']))
           { echo
               ("<html>
-                  <a href='signup.php'>Регистрация</a><br><a href='signin.php'>Авторизация</a></div>
+                  <a id='hover-link' href='signup.php'>Регистрация</a><br><a id='hover-link' href='signin.php'>Авторизация</a></div>
               </html>");
           }
               else
           { echo
               ("<html>
-                  <a href='myaccount.php'>Моя страница</a></div>
+                  <a id='hover-link' href='myaccount.php'>Моя страница</a></div>
               </html>");  
           }
       ?>
     </div> <!-- end col-1 -->
+    <div class="col-1"></div>
   </div> <!-- end row -->
 <!-- flexslider -->
   <div class="row">
@@ -87,7 +87,7 @@ session_start();
 <!-- Постоянные акции, текущие предложения -->
   <div class="row">
     <div class="col-1"></div>
-    <div id="two-row-table-1" class="col-5">
+    <div id="content-padding" class="col-5">
       <h1>Постоянные акции</h1>
         <h2>Скидка именинникам</h2>       
           <p id="red-line">При предъявлении паспорта скидка на весь заказ составляет 25%.</p>
@@ -96,7 +96,7 @@ session_start();
         <h2>Скидка постоянным клиентам<h2>      
           <p id="red-line">У нас действует гибкая система скидом для частых гостей нашего кафе. Подробности уточняйте у администратора.</p>
     </div> <!-- end col-5 -->
-    <div id="two-row-table-2" class="col-5">
+    <div id="content-padding" class="col-5">
       <h1>Текущие предложения</h1>
         <h2>Скидка на греческий и овощной салат</h2>            
           <p id="red-line">Акция действует с 1 по 28 февраля 2015 года.</p>         
@@ -109,8 +109,8 @@ session_start();
     <div class="col-1"></div>
   </div> <!-- end row -->
 </div> <!-- end grid -->
-<footer>
+<div class="footer">
   <p id="center">Идея и разработка: <a id="link" href="mailto:darinazhuchenko@gmail.com">Жученко Дарина</a></p>  
-</footer>
+</div>
 </body>
 

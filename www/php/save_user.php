@@ -191,7 +191,7 @@ if($password != $r_password){
     $login = trim($login);
     $password = trim($password);
 
-include ("db.php");
+include ("php/db.php");
 
 /*проверка уникальности логина*/
 $result = mysql_query("SELECT id FROM users_2 WHERE login='$login'",$db);

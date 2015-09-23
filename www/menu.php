@@ -43,7 +43,6 @@ session_start();
   <div class="row">
     <div class="col-1"></div>
     <div class="col-3"><a href="index.php"><img id="logo" src="images/logo.png"></a></div>
-    <div class="col-1"></div>
     <div class="col-6">
       <table class="menu-style"> 
         <tr>
@@ -66,17 +65,18 @@ session_start();
             if (empty($_SESSION['login']) or empty($_SESSION['id']))
             { echo
                 ("<html>
-                    <a href='signup.php'>Регистрация</a><br><a href='signin.php'>Авторизация</a></div>
+                    <a id='hover-link' href='signup.php'>Регистрация</a><br><a href='signin.php'>Авторизация</a></div>
                 </html>");
             }
                 else
             { echo
                 ("<html>
-                    <a href='myaccount.php'>Моя страница</a></div>
+                    <a id='hover-link' href='myaccount.php'>Моя страница</a></div>
                 </html>");  
             }
         ?>
-    </div>
+    </div> <!-- end col-1 -->
+    <div class="col-1"></div>
   </div> <!-- end row -->
 <!-- Flexslider -->
   <div class="row">
@@ -102,7 +102,7 @@ session_start();
   <div class="row">
     <div class="col-1"></div>
       <div class="col-5">
-        <table id="#two-row-table-1" class="menu-table"> 
+        <table id="content-padding" class="menu-table"> 
           <tr>
             <td id="menu"><h1>Салаты</h1></td>
             <td><span>грамм</span></td>
@@ -193,7 +193,7 @@ session_start();
       </div>
 
     <div class="col-5">
-      <table id="two-row-table-2" class="menu-table"> 
+      <table id="content-padding" class="menu-table"> 
           <tr>
               <td><h1>Основные блюда</h1></td>
               <td><span>грамм<br> (мл.)</span></td>
@@ -298,9 +298,9 @@ session_start();
       </div> <!-- end col-5 -->
     <div class="col-1"></div>
   </div> <!-- end row -->
-<footer>
+<div class="footer">
   <p id="center">Идея и разработка: <a id="link" href="mailto:darinazhuchenko@gmail.com">Жученко Дарина</a></p>  
-</footer>
+</div>
 </div> <!-- end grid -->
 
 

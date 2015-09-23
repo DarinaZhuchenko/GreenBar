@@ -16,8 +16,7 @@ session_start();
 <!-- навигация -->
   <div class="row">
     <div class="col-1"></div>
-    <div class="col-3"><a href="index.php"><img id="logo" src="images/logo.png" alt="GreenBar"></a></div>
-    <div class="col-1"></div>
+    <div class="col-3"><a href="index.php"><img align="left" id="logo" src="images/logo.png" alt="GreenBar"></a></div>
     <div class="col-6">   
       <table class="menu-style"> 
         <tr>
@@ -52,6 +51,7 @@ session_start();
           }
       ?>
       </div> <!-- end col-1 -->
+
     </div> <!-- end row -->
 <!-- изображение -->
   <div class="row">
@@ -79,15 +79,15 @@ session_start();
 <!-- ближайшие события, текущие предложения -->
   <div class="row">
     <div class="col-1"></div>
-    <div id="two-row-table-1" class="col-5" >
+    <div id="content-padding" class="col-5" >
       <h1>Ближайшие события</h1>
         <h2>20 февраля. Вечер настольных игр</h2>       
           <p id="red-line">В этот день все любители настольных игр могут воспрользоваться возможностью провести время за монополией.</p>
         <h2>25 февраля. Поэтический вечер</h2>      
           <p id="red-line">Все желающие поделиться своими стихами с публикой могут это сделать в среду, 25 февраля. Начало представления запланировано на 18 часов. Участники должны предварительно связаться с администратором по поводу своего участия по телефону: (063) 789-82-84. </p>
-            <a class="button" href="all_news.html #all_news">&nbsp;Все события&nbsp;&#8594&nbsp;</a>
+            <a class="button" href="all_news.php #all_news">&nbsp;Все события&nbsp;&#8594&nbsp;</a>
     </div> <!-- end col-5 -->
-    <div id="two-row-table-2" class="col-5">
+    <div id="content-padding" class="col-5">
       <h1>Текущие предложения</h1>
         <h2 i>Скидка на греческий и овощной салат</h2>            
           <p id="red-line">Акция действует с 1 по 28 февраля 2015 года для всех посетителей кафе.</p>        
@@ -95,14 +95,14 @@ session_start();
           <p id="red-line">С 10 до 14 часов цена всех каш составляет 10 гривен. Акция действует с 1 января по 31 марта 2015 года.</p>       
         <h2 >Чай в подарок</h2>            
           <p id="red-line">При заказе от 100 гривен на выбор в подарок предлагается чайник <span><a href="menu.php #Id drink">чая.<span></a></p>
-            <a class="button" href="discount.html">&nbsp;Все предложения&nbsp;&#8594&nbsp;</a>
+            <a class="button" href="discount.php">&nbsp;Все предложения&nbsp;&#8594&nbsp;</a>
       </div> <!-- end col-5 -->
     <div class="col-1"></div>
   </div> <!-- end row -->
 </div> <!-- end grid -->
-<footer>
+<div class="footer">
   <p id="center">Идея и разработка: <a id="link" href="mailto:darinazhuchenko@gmail.com">Жученко Дарина</a></p>  
-</footer>
+</div>
 </body>
 </html>
 

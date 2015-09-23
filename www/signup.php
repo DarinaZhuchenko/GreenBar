@@ -21,8 +21,7 @@
 <!-- навигация -->
   <div class="row">
     <div class="col-1"></div>
-    <div class="col-3"><a href="index.php"><img src="images/logo.png" style="padding-top: 8%"></a></div>
-    <div class="col-1"></div>
+    <div class="col-3"><a href="index.php"><img id="logo" src="images/logo.png"></a></div>
     <div class="col-6">   
       <table class="menu-style"> 
         <tr>
@@ -41,13 +40,14 @@
         </tr>
       </table>   
     </div> <!-- end col-5 -->
-    <div class="col-1 menu-style"><a id="link" href="signup.php" style="color:  #4b7c00;">Регистрация</a><br><a href="signin.php">Авторизация</a></div> 
+    <div class="col-1 menu-style"><a id="link" href="signup.php" style="color: #4b7c00;">Регистрация</a><br><a id="hover-link" href="signin.php">Авторизация</a></div> 
+    <div class="col-1"></div>
   </div> <!-- end row -->
   <div class="row">
     <div class="col-4"></div>
     <div class="col-4">
 <!-- регистрация -->
-      <form class="signup" method="post" action="save_user.php">
+      <form class="signup" method="post" action="php/save_user.php">
         <caption><h1>Регистрация</h1></caption>
         <table>
           <tr>
@@ -93,7 +93,7 @@
     <div class="col-4"></div>
   </div> <!-- row -->
 </div> <!-- grid -->
-<footer>
+<div class="footer">
   <p id="center">Идея и разработка: <a id="link" href="mailto:darinazhuchenko@gmail.com">Жученко Дарина</a></p>  
-</footer>
+</div>
 </body>

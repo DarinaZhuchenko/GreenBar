@@ -29,7 +29,6 @@ session_start();
   <div class="row">
     <div class="col-1"></div>
     <div class="col-3"><a href="index.php"><img id="logo" src="images/logo.png"></a></div>
-    <div class="col-1"></div>
     <div class="col-6">
       <table class="menu-style"> 
         <tr>
@@ -52,17 +51,18 @@ session_start();
           if (empty($_SESSION['login']) or empty($_SESSION['id']))
           { echo
               ("<html>
-                  <a href='signup.php'>Регистрация</a><br><a href='signin.php'>Авторизация</a></div>
+                  <a id='hover-link' href='signup.php'>Регистрация</a><br><a id='hover-link' href='signin.php'>Авторизация</a></div>
               </html>");
           }
               else
           { echo
               ("<html>
-                  <a href='myaccount.php'>Моя страница</a></div>
+                  <a id='hover-link' href='myaccount.php'>Моя страница</a></div>
               </html>");  
           }
       ?> 
     </div> <!-- end col-1 --> 
+    <div class="col-1"></div>
   </div> <!-- row -->
 <!-- Flexslider -->
   <div class="row">
@@ -84,7 +84,7 @@ session_start();
 <!-- Ближайшие события -->
   <div class="row">
     <div class="col-1"></div>
-      <div id="gallery" class="col-10">
+      <div id="content-padding" class="col-10">
         <h1>Ближайшие события</h1>
           <h2>20 февраля. Вечер настольных игр</h2>       
             <p id="red-line">В этот день все любители настольных игр могут воспрользоваться возможностью провести время за монополией.</p>
@@ -100,7 +100,7 @@ session_start();
     <div class="col-1"></div>
   </div> <!-- end row -->
 </div> <!-- end grid -->
-<footer>
+<div class="footer">
   <p id="center">Идея и разработка: <a id="link" href="mailto:darinazhuchenko@gmail.com">Жученко Дарина</a></p>  
-</footer>
+</div>
 </body>
